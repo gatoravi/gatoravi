@@ -1,16 +1,32 @@
 ## Hi, I'm Avinash
 
-Computational biologist working at the intersection of genomics and software.
+Computational biologist working at the intersection of genomics, statistics
+and software. My PhD (Washington University in St. Louis, 2023) used
+single-cell sequencing and statistical modeling to study why genetically
+identical cells express genes differently. I have also built tools for
+calling mutations and checking sample identity in large sequencing studies.
 
-**Languages:** Python, R, C/C++
+**Languages:** Python, R, C/C++  
+**Methods:** single-cell RNA-seq analysis, variant calling, statistical
+modeling, supervised cell-state classification, massively parallel reporter
+assays  
+**Tools:** Seurat, Monocle 3, Garnett, Bioconductor, samtools/htslib, CMake
 
-### Projects
-- [castools](https://github.com/gatoravi/castools) — command line tools for the CAS project
-- [regtools](https://github.com/griffithlab/regtools) — integrate DNA-seq and RNA-seq data to identify regulatory mutations
-- [maury](https://github.com/gatoravi/maury) — R package to detect sample-swaps in NGS data
-- [arnav](https://github.com/gatoravi/arnav) — mutation calling using a site-specific binomial model
-- [bam-parser-tutorial](https://github.com/gatoravi/bam-parser-tutorial) — parsing BAM files using htslib
-- [mpileup2readcounts](https://github.com/gatoravi/mpileup2readcounts) — per-nucleotide read counts from samtools mpileup
+### Featured projects
+- [hedgehog-variability](https://github.com/gatoravi/hedgehog-variability): single-cell RNA-seq analysis showing that transcription factor fluctuations drive variable Hedgehog signaling responses, including a trained cell-state classifier
+- [arnav](https://github.com/gatoravi/arnav): mutation calling from RNA-seq using site-specific binomial error models (C++), used on GTEx data
+- [maury](https://github.com/gatoravi/maury): R package to detect sample swaps and relatedness in NGS data
+- [castools](https://github.com/gatoravi/castools): command line tools for the CAS / SARGENT reporter-noise project
+- [regtools](https://github.com/griffithlab/regtools): integrate DNA-seq and RNA-seq data to identify regulatory mutations
+- [mpileup2readcounts](https://github.com/gatoravi/mpileup2readcounts): per-nucleotide read counts from samtools mpileup
+- [bam-parser-tutorial](https://github.com/gatoravi/bam-parser-tutorial): getting started with parsing BAM and VCF files using htslib
+- [thesis](https://github.com/gatoravi/thesis): my PhD dissertation, *Sources and consequences of cell-to-cell variability in gene expression*
+
+### Selected publications
+- Ramu A, Cohen BA. *Transcription factor fluctuations underlie cell-to-cell variability in a signaling pathway response.* GENETICS (2023). [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.11.30.518555v1)
+- Rockweiler NB, Ramu A, *et al.* *The origins and functional effects of postzygotic mutations throughout the human life span.* Science (2023). [link](https://www.science.org/doi/10.1126/science.abn7113)
+- Ramu A. *Arnav: Site specific error models to identify variants in RNA.* bioRxiv (2018). [link](https://www.biorxiv.org/content/10.1101/397539v1)
+- Full list on [Google Scholar](https://scholar.google.com/citations?user=JIw6080AAAAJ&hl=en)
 
 ### Links
 - [Google Scholar](https://scholar.google.com/citations?user=JIw6080AAAAJ&hl=en)
