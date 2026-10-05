@@ -20,7 +20,6 @@ assays
 - [regtools](https://github.com/gatoravi/regtools): integrates tumor DNA-seq and RNA-seq to find splice-altering variants in cancer; I was a lead developer ([Nature Communications 2023](https://doi.org/10.1038/s41467-023-37266-6))
 - [mpileup2readcounts](https://github.com/gatoravi/mpileup2readcounts): per-nucleotide read counts from samtools mpileup
 - [bam-parser-tutorial](https://github.com/gatoravi/bam-parser-tutorial): getting started with parsing BAM and VCF files using htslib
-- [thesis](https://github.com/gatoravi/thesis): my PhD dissertation, *Sources and consequences of cell-to-cell variability in gene expression*
 
 ### Selected publications
 - Ramu A, Cohen BA. *Transcription factor fluctuations underlie cell-to-cell variability in a signaling pathway response.* GENETICS (2023). [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.11.30.518555v1)
